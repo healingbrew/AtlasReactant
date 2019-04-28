@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="deniszykov.WebSocketListener" Version="4.2.6-alpha" />
+      <PackageReference Include="JetBrains.Annotations" Version="2019.1.1" />
+      <PackageReference Include="Utf8Json" Version="1.3.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SharedLogic\SharedLogic.csproj" />
+    </ItemGroup>
+
+</Project>
