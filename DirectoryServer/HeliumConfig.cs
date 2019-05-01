@@ -113,7 +113,7 @@ namespace DirectoryServer
                     case "-v":
                     case "--version":
                     {
-                        Console.Error.WriteLine($"DirectoryServer=DServer/{Assembly.GetExecutingAssembly().GetName().Version}, AtlasReactant/{typeof(Logger).Assembly.GetName().Version}");
+                        Console.Error.WriteLine($"DirectoryServer=DServer/{Assembly.GetExecutingAssembly().GetName().Version}, Reactant/{typeof(Logger).Assembly.GetName().Version}");
                         Environment.Exit(0);
                         break;
                     }
