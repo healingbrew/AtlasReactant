@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLogic", "SharedLogic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobbyServer", "LobbyServer\LobbyServer.csproj", "{72BC623E-C43D-4CB3-98BC-C1C5A883553F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer", "WebServer\WebServer.csproj", "{775B7127-1597-4CBB-9C70-6CC7689B50DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{72BC623E-C43D-4CB3-98BC-C1C5A883553F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BC623E-C43D-4CB3-98BC-C1C5A883553F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BC623E-C43D-4CB3-98BC-C1C5A883553F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775B7127-1597-4CBB-9C70-6CC7689B50DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775B7127-1597-4CBB-9C70-6CC7689B50DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775B7127-1597-4CBB-9C70-6CC7689B50DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775B7127-1597-4CBB-9C70-6CC7689B50DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
